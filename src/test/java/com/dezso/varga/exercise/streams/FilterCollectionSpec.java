@@ -1,11 +1,11 @@
-package com.dezso.varga;
+package com.dezso.varga.exercise.streams;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.dezso.varga.FilterCollection.*;
+import static com.dezso.varga.exercise.streams.FilterCollection.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 

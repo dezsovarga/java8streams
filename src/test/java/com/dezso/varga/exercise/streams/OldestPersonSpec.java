@@ -1,11 +1,12 @@
-package com.dezso.varga;
+package com.dezso.varga.exercise.streams;
 
+import com.dezso.varga.exercise.streams.Person;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.dezso.varga.OldestPerson.*;
+import static com.dezso.varga.exercise.streams.OldestPerson.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
