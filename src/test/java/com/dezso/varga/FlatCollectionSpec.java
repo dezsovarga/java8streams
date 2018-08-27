@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static java.util.Arrays.asList;
+import static com.dezso.varga.FlatCollection.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
