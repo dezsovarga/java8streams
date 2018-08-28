@@ -1,4 +1,4 @@
-package com.dezso.varga;
+package com.dezso.varga.exercise.streams;
 
 import java.util.HashSet;
 import java.util.List;

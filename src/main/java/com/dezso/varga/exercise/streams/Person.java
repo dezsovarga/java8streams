@@ -1,4 +1,4 @@
-package com.dezso.varga;
+package com.dezso.varga.exercise.streams;
 
 public class Person {
     private String name;

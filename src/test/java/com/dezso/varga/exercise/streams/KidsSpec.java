@@ -1,11 +1,12 @@
-package com.dezso.varga;
+package com.dezso.varga.exercise.streams;
 
+import com.dezso.varga.exercise.streams.Person;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.dezso.varga.Kids.getKidNames;
+import static com.dezso.varga.exercise.streams.Kids.getKidNames;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 /*

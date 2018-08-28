@@ -1,4 +1,4 @@
-package com.dezso.varga;
+package com.dezso.varga.exercise.streams;
 
 import java.util.ArrayList;
 import java.util.List;
