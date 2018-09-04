@@ -17,9 +17,14 @@ public class MissingNumbers {
         }
         int lastMissingIndex = 0;
         for (int i = 0; i < missingCount; i++) {
-            missingNumbers.add(bitSet.nextClearBit(lastMissingIndex) + 1);
+            lastMissingIndex = bitSet.nextClearBit(lastMissingIndex);
+            missingNumbers.add(++lastMissingIndex);
         }
         return missingNumbers;
+    }
+
+    public static void main(String args[]) {
+        System.out.println(getMissingNumbers(new int[]{1,2,3,4,5,7,9,10}, 10));
     }
 
 }
